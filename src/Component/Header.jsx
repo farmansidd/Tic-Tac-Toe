@@ -74,7 +74,7 @@ function Header() {
         </div>
       </div>
       {showBoard && <Box boxes={boxes} onBoxClick={handleBoxClick} />}
-      <button className="btn btn-dengar" onClick={resetGame}>
+      <button className="btn-primary" onClick={resetGame}>
   Reset Game
 </button>
    </div>
